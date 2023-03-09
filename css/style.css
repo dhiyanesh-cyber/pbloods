@@ -1,0 +1,283 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#top {
+  background-color: #da0037;
+}
+
+#about-us {
+  background-color: black;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #da0037;
+  font-size: 13px;
+  padding: 50px;
+}
+
+/* Sections */
+
+.red-section{
+  background-color: #da0037;
+  color: black;
+
+}
+
+.black-section{
+  background-color: black;
+  color: #da0037;
+  
+}
+
+/* Everything About About-us */
+.position {
+  font-family: "Bebas Neue", cursive;
+  color: #da0037;
+  margin: 100px auto 10px auto;
+}
+
+.names {
+  color: #f7f5f2;
+  font-weight: bold;
+}
+
+.details {
+  color: #d3d3d3;
+}
+
+.hs1 {
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 8rem;
+}
+
+img {
+  margin: 20px;
+}
+
+.row {
+  padding: 30px;
+}
+
+/* buttons */
+
+.btn {
+  text-align: center;
+}
+
+.btns {
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbartop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.d-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Row Padding */
+
+.col-abt {
+  margin: 50px auto 50px auto;
+}
+
+.hori {
+  margin: 50px auto 50px auto;
+  border: none;
+  border-top: 5px dotted #dfdfde;
+  opacity: 20%;
+  height: 1px;
+  width: 10%;
+}
+
+/* Footer Link */
+
+.footer-link {
+  text-decoration: none;
+  margin: 10px 15px 10px 15px;
+  color: #dfdfde;
+  transition: 0.2s;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+.copyright {
+  color: #dfdfde;
+  margin: 50px auto 0 auto;
+}
+
+/* Carousel */
+
+#carousel {
+  background-color: black;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 200px 200px 200px 200px;
+}
+
+.car-news {
+  color: #dfdfde;
+  line-height: 70px;
+}
+
+.car-per {
+  color: #da0037;
+  margin: 50px;
+}
+
+/* Announcement */
+
+#announcement {
+  background-color: #da0037;
+}
+
+.text-announcement {
+  text-align: right;
+}
+
+.text-announce {
+  padding-top: 20px;
+  color: black;
+  font-size: 6rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.announce-row {
+  padding: 150px;
+}
+
+.img-col {
+  text-align: center;
+}
+
+.donor-img {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.about-container {
+  padding-bottom: 100px;
+}
+
+.about-us-h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #da0037;
+  margin: 100px auto 10px auto;
+}
+
+.msg-on-abt-us {
+  color: #d3d3d3;
+}
+
+@media (max-width: 990px) {
+  /* Navbar */
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .btn-outline-light {
+  }
+
+  #top {
+    text-align: center;
+  }
+
+  .hs1 {
+    font-size: 4rem;
+  }
+
+  .top-img {
+    height: 200px;
+  }
+
+  /* Carousel */
+
+  .car-news {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .carousel-item {
+    padding: 50px;
+    text-align: center;
+  }
+
+  /* Announcement */
+
+  .text-announcement {
+    text-align: center;
+  }
+  .text-announce {
+    font-size: 1.5rem;
+  }
+
+  .donor-img {
+    width: 150px;
+  }
+
+  .announce-row {
+    padding: 20px;
+  }
+
+  /* Footer */
+
+  #footer {
+    padding: 10px;
+  }
+
+  .copyright {
+    margin: 7px 0 0 0;
+  }
+
+  .about-us-h1 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+  .msg-on-abt-us {
+    font-size: 1rem;
+  }
+
+  .position {
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+
+  .names {
+    font-size: 1.1rem;
+  }
+
+  .details {
+    font-size: 0.9rem;
+  }
+
+  .about-container {
+    padding-bottom: 50px;
+  }
+
+  .detail-row {
+    padding: 2px;
+  }
+}
